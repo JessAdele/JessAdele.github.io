@@ -20,13 +20,13 @@ body {
     width: 100%; 
   }
 
-  
+
   #house {
     display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -80%;
+    margin-top: -70%;
     width: 80%;
     z-index: 16;
 }
