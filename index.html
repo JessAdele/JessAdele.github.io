@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <!--web tab-->
+        <link rel="stylesheet" href="style.css" />
+        <title>Jessica Probeck Programing Final</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        
+        <h1>Use Full Screen Please!</h1>
+
+            <!-- Character -->
+
+                    <div class ="character"> <img id="characterChange" src="images/WebChar_1.gif"></div>
+
+                    <button id="buttonOne">Change!</button>
+                    <button id="buttonGlass1">Wear Glasses!</button>
+                    <button id ="buttonTwo">Change #2!</button>
+                    <button id ="buttonGlass2">Wear Glasses!</button>
+                    <button id ="buttonCat1">Hold A Cat!</button>
+                    <button id ="buttonGlasscat1">Wear Glasses & Hold A Cat!</button>
+                    <button id ="buttonThree">Change #3!</button>
+                    <button id ="buttonGlass3">Wear Glasses!</button>
+                    <button id ="buttonCat2">Hold A Cat!</button>
+                    <button id ="buttonGlasscat2">Wear Glasses & Hold A Cat!</button>
+                    <button id="buttonShort">Cut Hair!</button>
+                    <button id="buttonGlassshort">Wear Glasses & Cut Hair!</button>
+                    <button id="buttonShortcat">Cut Hair & Hold Cat!</button>
+                    <button id="buttonGlasscatshort">Wear Glasses, Cut Hair, & Hold Cat!</button>
+            
+                    <script>
+            
+                        const onOne = document.getElementById('buttonOne');
+                        const onGlass1 = document.getElementById('buttonGlass1')
+                        const onTwo = document.getElementById('buttonTwo');
+                        const onGlass2 = document.getElementById('buttonGlass2')
+                        const onCat1 = document.getElementById('buttonCat1')
+                        const onGlasscat1 = document.getElementById('buttonGlasscat1')
+                        const onThree = document.getElementById('buttonThree');
+                        const onGlass3 = document.getElementById('buttonGlass3')
+                        const onCat2 = document.getElementById('buttonCat2')
+                        const onGlasscat2 = document.getElementById('buttonGlasscat2')
+                        const onShort = document.getElementById('buttonShort');
+                        const onGlassshort = document.getElementById('buttonGlassshort')
+                        const onShortcat = document.getElementById('buttonShortcat');
+                        const onGlasscatshort = document.getElementById('buttonGlasscatshort')
+
+
+            
+                        buttonOne.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_2.gif";
+                        });
+
+                        buttonGlass1.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_2_GLASSES.gif";
+                        });
+
+                        buttonTwo.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_3.gif";
+                        });
+
+                        buttonGlass2.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_3_GLASSES.gif";
+                        });
+
+                        buttonCat1.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_3_CAT.gif";
+                        });
+
+                        buttonGlasscat1.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_3_GLASSES_CAT.gif";
+                        });
+
+                        buttonThree.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4.gif";
+                        });
+
+                        buttonGlass3.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_GLASSES.gif";
+                        });
+
+                        buttonCat2.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_CAT.gif";
+                        });
+
+                        buttonGlasscat2.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_GLASSES_CAT.gif";
+                        });
+
+                        buttonShort.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_SHORT.gif";
+                        });
+
+                        buttonGlassshort.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_GLASSES_SHORT.gif";
+                        });
+
+                        buttonShortcat.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_SHORT_CAT.gif";
+                        });
+
+                        buttonGlasscatshort.addEventListener('click', function(){
+                            document.getElementById('characterChange').src = "images/WebChar_4_GLASSES_SHORT_CAT.gif";
+                        });
+
+                    </script>
+          
+            
+            <!-- Background Image -->
+                    <div id="background-container"></div><image id="background" src="images/BackGround_Web.png"></image>
+        
+
+             <!-- House Image -->  
+                    <image id= "house" src= "images/House.png"></image>
+
+            <!-- Fences Images--> 
+                    <image id= "fence-one" src= "images/Fence.png"></image>    
+                    <image id= "fence-two" src= "images/Fence.png"></image>  
+                    <image id= "fence-three" src= "images/Fence.png"></image>  
+        </body>
+    	
+
+ </html>
