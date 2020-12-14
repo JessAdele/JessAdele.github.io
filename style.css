@@ -1,17 +1,4 @@
 
-@font-face {
-    font-family: 'Chilanka';
-    src: url(Chilanka-Regular.ttf);
-}
-
-  
-
-h1 {
-    color:rgb(107, 47, 47);
-    text-align: center;
-    z-index: 20;
-}
-
 html {
     box-sizing: content-box;
     height: 100%;
@@ -19,7 +6,7 @@ html {
 }
 
 body {
-    font-family: 'Chilanka';
+
     background-color:rgb(96, 163, 94)
 }
 
