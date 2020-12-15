@@ -1,4 +1,9 @@
 
+
+h1 {
+    text-align: center;
+    color:rgb(107, 47, 47);
+}
 html {
     box-sizing: content-box;
     height: 100%;
